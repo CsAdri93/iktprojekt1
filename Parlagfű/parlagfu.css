@@ -21,8 +21,18 @@ a:link a:hover a:active a:visited{
 }
 
 #masodik{
-    padding: 40pt;
+    height: 40pt;
     background-color: black;
     color: white;
     text-align: center;
+    vertical-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+#kep{
+    float: right;
+    margin: 0 5pt;
 }
