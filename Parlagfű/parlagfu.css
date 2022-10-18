@@ -34,5 +34,7 @@ span{
 
 #kep{
     float: right;
-    margin: 0 5pt;
+    margin-right: 5pt;
+    margin-left: 5pt;
+    border: 1px solid;
 }
