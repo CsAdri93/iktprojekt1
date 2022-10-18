@@ -1,0 +1,28 @@
+body{
+    background-color: #9CEE59;
+    color: black;
+}
+
+a:link a:hover a:active a:visited{
+    color: #999999;
+}
+
+#foTabla{
+    width: 980px;
+    background-color: #509050;
+    margin: 0 auto;
+}
+
+#belsoTabla{
+    width: 940px;
+    background-color: white;
+    margin: 0 auto;
+    border-spacing: 1px;
+}
+
+#masodik{
+    padding: 40pt;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
