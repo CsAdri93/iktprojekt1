@@ -4,8 +4,7 @@ body{
 }
 
 a:link,a:hover,a:visited,a:active{
-    color: #c0c0c0;
-    
+    color: #c0c0c0;   
 }
 
 #foTabla{
@@ -49,8 +48,4 @@ hr{
 q{
     font-weight: bold;
     font-style: italic;
-}
-
-#cim{
-    text-align: center;
 }
