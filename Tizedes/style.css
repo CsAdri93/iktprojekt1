@@ -1,0 +1,33 @@
+body{
+    color: white;
+    background-image: url(hatter.png);
+    text-align: center;
+}
+
+a:link a:hover a:visited a:active{
+    color: #c0c0c0;
+}
+
+#foTabla{
+    border: none;
+    border-spacing: 0px;
+    width: 1000px;
+}
+
+td{
+    margin: 5px;
+}
+
+.balJobb{
+    width: 120px;
+}
+
+.kozepre{
+    display: block;
+}
+
+#belsoTabla{
+    border: none;
+    margin: 0 auto;
+    border-spacing: 5px;
+}
