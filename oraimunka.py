@@ -1,4 +1,5 @@
-"""#1, legkisebb érték
+
+#1, legkisebb érték
 
 def feladat1():
     tomb =[]
@@ -37,7 +38,7 @@ def ertekeles(pontSzam):
 for i in range(1):
     erdemjegy=ertekeles(int(input("Kérem a pontszámot: ")))
 print(f"Az érdemjegy: {erdemjegy}")
-"""
+
 
 #4, osztható-e
 def feladat4():
@@ -55,11 +56,41 @@ def feladat4():
 feladat4()
 
 #5, kettő összege
+def feladat5():
+    a=int(input("Kérem a értékét: "))
+    b=int(input("Kérem b értékét: "))
+    c=int(input("Kérem c értékét: "))
+    van=False
+    if (a+b)==c:
+        van=True
+    if (a+c)==b:
+        van=True
+    if (c+b)==a:
+        van=True
+    if van:
+        print("Van ilyen szám!")
+    else:
+        print("Nincs ilyen szám")
+feladat5()
 
 
 #6, páros szám
+def feladat6():
+    a=int(input("Kérem a értékét: "))
+    b=int(input("Kérem b értékét: "))
+    c=int(input("Kérem c értékét: "))
+    van=False
+    if a%2==0 and b%2==0 and c%2==0:
+        van=True
+
+    if van:
+        print("Az összes páros!")
+    else:
+        print("Van köztük páratlan!")
+feladat6()
 
 #7, abc sorrend
+
 
 #8, kisebb
 
