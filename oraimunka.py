@@ -90,10 +90,15 @@ def feladat6():
 feladat6()
 
 #7, abc sorrend
+def feladat7():
+    tomb=[]
 
+    for i in range(2):
+        tomb.append(input("Kérem a szót: "))
+    
+    tomb.sort()
 
-#8, kisebb
+    for i in range(2):
+        print(tomb[i])
 
-#9, zárt intervallum
-
-#10, start
+feladat7()
