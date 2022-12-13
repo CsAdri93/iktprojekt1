@@ -1,4 +1,3 @@
-
 #0. Írj egy Python programot, amely bekér egy 20-nál nem nagyobb pozitív egész számot a felhasználótól és kiírja a képernyőre a START szót úgy, hogy előtte annyi szóköz legyen amennyi a megadott szám értéke! 
 def feladat0():
     szam=int(input("Kérek egy 20-nál nem nagyobb számot: "))
@@ -36,5 +35,19 @@ def feladat3():
 feladat3()
 
 #4. Írj egy Python programot, amely először bekér egy kisebb majd egy nagyobb pozitív valós számot a felhasználótól és kiírja a képernyőre azokat az egész számokat, amelyek a megadott értékek között helyezkednek el! 
+def feladat4():
+    kisebb=int(input("Kérek egy pozitív számot: "))
+    nagyobb=int(input("Kérek egy nagyobb, pozitív számot: "))
+
+    for i in range(kisebb+1,nagyobb):
+        print(i)
+feladat4()
 
 #5. Írj egy Python eljárást, amely paraméterként kap 2 egész számot (N és M) és kiír a képernyőre a csillag (*) karaktereket M darab sorban és N darab oszlopban (tehát NxM darab karaktert egy téglalap alakú képernyőrészre)! A programodban hívd is meg ezt az alprogramot!
+def feladat5():
+    N=int(input("Kérek egy egész számot: "))
+    M=int(input("Kérek egy másik egész számot: "))
+
+    for i in range(N):
+        print("*"*M)
+feladat5()
